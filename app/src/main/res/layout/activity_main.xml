@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/AppleCheck"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Apple" />
+
+        <EditText
+            android:id="@+id/AppleText"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/ApplePr"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/StrawCheck"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Strawberry" />
+
+        <EditText
+            android:id="@+id/StrawText"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/StrawPr"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/BlueCheck"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Blueberry" />
+
+        <EditText
+            android:id="@+id/BlueText"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/BluePr"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/PotatCheck"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Potatoes" />
+
+        <EditText
+            android:id="@+id/PotatText"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/PotatPr"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onCalc"
+            android:text="@string/Calculate" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/RButDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AlertDialog" />
+
+        <RadioButton
+            android:id="@+id/RButToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Toast" />
+    </LinearLayout>
+
+</LinearLayout>

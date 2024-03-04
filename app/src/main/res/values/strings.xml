@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lab04</string>
+    <string name="Apple">Apple</string>
+    <string name="Strawberry">Strawberry</string>
+    <string name="Blueberry">Blueberry</string>
+    <string name="Potatoes">Potatoes</string>
+    <string name="Calculate">Calculate</string>
+    <string name="Toast">Toast</string>
+    <string name="AlertDialog">AlertDialog</string>
+
+
+</resources>
